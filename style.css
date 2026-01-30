@@ -1,0 +1,125 @@
+:root {
+  --overlay-opacity: 0.88;
+
+  --clock-scale: 1;
+  --date-scale: 1;
+  --clock-date-gap: 1;
+  --clock-x-offset: 1;
+
+  --location-scale: 1;
+  --location-x-offset: 1;
+}
+
+/* Base */
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  font-family: "LG Display-Light", "LG Display-Regular", sans-serif;
+}
+
+/* Video */
+
+.video-element {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+/* Clock + Date (bottom right) */
+
+.overlay-clock-container {
+  position: absolute;
+  right: calc(5% * var(--clock-x-offset));
+  bottom: 8%;
+  text-align: right;
+  pointer-events: none;
+  z-index: 10;
+
+  transform: scale(var(--clock-scale));
+  transform-origin: bottom right;
+}
+
+.overlay-clock {
+  font-family: "LG Display-Light", sans-serif;
+  font-size: 6vw;
+  font-weight: 300;
+  line-height: 1.0;
+  color: rgba(255, 255, 255, var(--overlay-opacity));
+  text-shadow:
+    0px 2px 2px rgba(0, 0, 0, 0.65),
+    0px 1px 1px rgba(0, 0, 0, 0.45);
+}
+
+.overlay-date {
+  font-family: "LG Display-Regular", sans-serif;
+  font-size: 2vw;
+  margin-top: calc(0.5vw * var(--clock-date-gap));
+  transform: scale(var(--date-scale));
+  transform-origin: top right;
+  color: rgba(255, 255, 255, calc(var(--overlay-opacity) - 0.10));
+  text-shadow:
+    0px 2px 2px rgba(0, 0, 0, 0.65),
+    0px 1px 1px rgba(0, 0, 0, 0.45);
+}
+
+/* Location (bottom left) */
+
+.overlay-location-container {
+  position: absolute;
+  left: calc(5% * var(--location-x-offset));
+  bottom: 8%;
+  text-align: left;
+  pointer-events: none;
+  z-index: 10;
+
+  transform: scale(var(--location-scale));
+  transform-origin: bottom left;
+}
+
+.overlay-location {
+  font-family: "LG Display-Regular", sans-serif;
+  font-size: 2vw;
+  margin-top: 0.5vw;
+  color: rgba(255, 255, 255, calc(var(--overlay-opacity) - 0.10));
+  text-shadow:
+    0px 2px 2px rgba(0, 0, 0, 0.65),
+    0px 1px 1px rgba(0, 0, 0, 0.45);
+}
+
+/* Debug overlay */
+
+.debug {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 40%;
+  max-height: 40%;
+  overflow: auto;
+  background: rgba(0, 0, 0, 0.6);
+  color: #0f0;
+  font-family: monospace;
+  font-size: 1vw;
+  padding: 0.5vw;
+  z-index: 20;
+  display: none;
+}
+
+/* Fade classes */
+
+.video-fade-out {
+  transition: opacity 0.8s ease-out;
+  opacity: 0;
+}
+
+.video-fade-in {
+  transition: opacity 1s ease-in;
+  opacity: 1;
+}

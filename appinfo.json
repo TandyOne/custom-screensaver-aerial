@@ -1,0 +1,10 @@
+{
+  "id": "com.travis.aeriallite",
+  "version": "1.0.0",
+  "vendor": "Travis",
+  "type": "web",
+  "main": "index.html",
+  "title": "Aerial Lite",
+  "icon": "icon.png",
+  "uiRevision": 2
+}
