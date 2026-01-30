@@ -12,12 +12,9 @@
 * 180+ aerial videos from different sources.
 * 40+ locales for OSD
 * Source type selection (FullHD/4k SDR or Dolby Vision)
-* Requires root and [Homebrew channel](https://github.com/webosbrew/webos-homebrew-channel) 
-* Compatible with webOS 5 (2020), webOS 6 (2021), webOS 22 (2022), webOS 23 (2023) 
 
 Features
 --------
-
 * No root needed
 * Standalone Screensaver App
 * Will not replace default LG screensaver
