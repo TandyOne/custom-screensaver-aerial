@@ -21,6 +21,7 @@ Features
 
 With the latest webOS, cusom screensavers have been disabled.
 This app works like a standalone app and will display like a screensaver, but will not replace the default one.
+Expanded settings page
 
 Installation
 ------------
@@ -31,4 +32,3 @@ Screenshots
 ------------
    ![Main](https://github.com/aabytt/custom-screensaver-aerial/assets/84480313/77daf2da-b528-41ba-8377-fff70e6e1fd3)
    ![Screenshot](https://github.com/aabytt/custom-screensaver-aerial/assets/84480313/166f43e7-a3cf-4035-975a-931f282f5655)
-   ![Settings](https://github.com/aabytt/custom-screensaver-aerial/assets/84480313/1b7f281b-efdc-4eed-b0f2-b06f4bd5929a)
