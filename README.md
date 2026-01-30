@@ -19,9 +19,9 @@
 Features
 --------
 
-With the latest webOS, cusom screensavers have been disabled.
-This app works like a standalone app and will display like a screensaver, but will not replace the default one.
-Expanded settings page
+* With the latest webOS, cusom screensavers have been disabled.
+* This app works like a standalone app and will display like a screensaver, but will not replace the default one.
+* Expanded settings page
 
 Installation
 ------------
