@@ -22,6 +22,7 @@ Features
 * Standalone Screensaver App
 * Will not replace default LG screensaver
 * Launch just like normal app to view screensaver
+* Expanded settings page
 
 Installation
 ------------
