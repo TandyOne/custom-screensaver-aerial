@@ -12,30 +12,20 @@
 * 180+ aerial videos from different sources.
 * 40+ locales for OSD
 * Source type selection (FullHD/4k SDR or Dolby Vision)
-* Requires root and [Homebrew channel](https://github.com/webosbrew/webos-homebrew-channel) 
-* Compatible with webOS 5 (2020), webOS 6 (2021), webOS 22 (2022), webOS 23 (2023) 
-
-Disclaimer
----------------
-- App replaces original webOS screensaver. Use at your own risk. 
+* Install using webOS Dev Manager on your PC
+* Will require Dev Mode installed on tv
+* Homebrew channel not required
 
 Features
 --------
 
-* Autostart registration
-* Temporary apply
-* Launch screensaver immediately for testing
+With the latest webOS, cusom screensavers have been disabled.
+This app works like a standalone app and will display like a screensaver, but will not replace the default one.
 
 Installation
 ------------
-This should be downloadable in Homebrew Channel. Otherwise, there's an `ipk` in
-GitHub releases to the right. You are on your own here.
+There's an ipk in the releases section.
 
-Donate
-------------
-Looking for more sources or cool new features? Any support would mean the world!
-* [Boosty](https://boosty.to/aabytt)
-* [YooMoney](https://yoomoney.ru/to/4100115685800097)
 
 Screenshots
 ------------
